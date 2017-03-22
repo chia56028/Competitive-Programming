@@ -32,10 +32,11 @@ int main(void)
 	}
 	for(int j=0; j<=5*n-1; j++){
 		cout<<irr[j];
-		if((j+1)%5!=0)
+		if((j+1)%5!=0){
 			cout<<" ";
-		else
+		}else{
 			cout<<endl;
+		}
 	}
     return 0;
 }

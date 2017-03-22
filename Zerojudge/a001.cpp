@@ -8,7 +8,6 @@ Date:2017,03
 #include <string>
 using namespace std;
 
-
 int main(void)
 {   
 	string str;
