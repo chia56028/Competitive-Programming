@@ -1,6 +1,6 @@
 /*
 Problem:a004
-Author:Ching-Yu
+Author:ChingYu-Chia
 Date:2017,03
 */
 

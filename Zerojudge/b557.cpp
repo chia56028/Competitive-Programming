@@ -1,6 +1,6 @@
 /*
-Problem:a005
-Author:Ching-Yu
+Problem:b557
+Author:ChingYu-Chia
 Date:2017,03
 */
 

@@ -1,6 +1,6 @@
 /*
 Problem:c039
-Author:Ching-Yu
+Author:ChingYu-Chia
 Date:2017,03
 */ 
 #include <iostream>
