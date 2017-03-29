@@ -1,5 +1,6 @@
 /*
 Problem:d471
+Hint:Binary 
 Author:ChingYu-Chia
 Date:2017,03
 */

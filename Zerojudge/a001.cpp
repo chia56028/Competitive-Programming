@@ -3,6 +3,7 @@ Problem:a001
 Author:ChingYu-Chia
 Date:2017,03
 */
+
 #include <cstdlib>
 #include <iostream>
 #include <string>
