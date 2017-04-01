@@ -15,5 +15,6 @@ int main(void)
 	while(cin>>str){
 		cout<<"hello, "<<str<<endl;
 	}
-    return 0;
+	
+	return 0;
 }
