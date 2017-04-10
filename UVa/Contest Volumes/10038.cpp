@@ -17,23 +17,14 @@ int main(int argc, char** argv) {
 		
 		int jolly=1;
 		
-		int n,m;
-		int temp;
-		
 		int dif;
 		int diff[T-1];
 		
 		for(int i=1; i<T; i++){
-			n=a[i-1];
-			m=a[i];
+			dif=a[i]-a[i-1];;
 			
-			if(m<n){
-				temp=m;
-				m=n;
-				n=temp;
-			}
+			if(dif<0) dif=-dif;
 			
-			dif=m-n;
 			diff[i-1]=dif;
 			if(dif>=1 && dif<=T-1){
 				
