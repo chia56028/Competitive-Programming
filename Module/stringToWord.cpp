@@ -23,7 +23,6 @@ void stringToWord(string str){
 	string arr[len];
 	
 	int n=0;
-	
 	for(int i=0; i<len; i++){
 		if(str[i]!=' '){
 			arr[n]+=str[i];
