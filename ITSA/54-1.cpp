@@ -1,28 +1,40 @@
 /*
-Module:rounding
+Problem:ITSA-54-1
 Author:ChingYu-Chia
-Date:2017,03
+Date:2017,05
 */
 
 #include <iostream>
 #include <math.h>
 #include <iomanip>
 using namespace std;
-double rounding(double); 
+
+float rounding(float num);
 
 int main(int argc, char** argv) {
-	double x;
-	while(cin>>x){
+	int N;
+	cin>>N;
+	for(int i=0; i<N; i++){
+		float arr[10];
+		for(int j=0; j<10; j++) cin>>arr[j];
+		
+		//find maximum and minimum
+		float max=arr[0], min=arr[0];
+		for(int j=0; j<10; j++){
+			if(arr[j]>max) max=arr[j];
+			if(arr[j]<min) min=arr[j];
+		}
+		
 		//keep setprecision() digit after the decimal point
 		cout.setf(ios::fixed);
+		cout<<"maximum:"<<setprecision(2)<<rounding(max)<<endl;
+		cout<<"minimum:"<<setprecision(2)<<rounding(min)<<endl;
 		
-		double n=rounding(x);
-		cout<<setprecision(2)<<n<<endl;
 	}
 	return 0;
 }
 
-double rounding(double num){
+float rounding(float num){
 	
 	bool negative=false;
 	
